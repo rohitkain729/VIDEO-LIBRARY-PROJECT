@@ -1,0 +1,24 @@
+.side-bar{
+    /* background-color: green; */
+    min-width: 150px;
+    min-height: 100vh;
+    /* min-height: 30vh; */
+    padding: 1rem;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    color: rgb(205, 33, 33);
+    box-shadow: 3px 3px 20px grey;
+    background-color: rgba(0, 0, 0, 0.142);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.admin-panel{
+    text-align: center;
+}
+
+.signout{
+    /* margin-top: 600px; */
+}

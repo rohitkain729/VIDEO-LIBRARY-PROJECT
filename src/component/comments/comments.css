@@ -1,0 +1,61 @@
+.comment-container{
+    width: 100%;
+    background-color: white;
+    min-height: 100vh;
+    border: none;
+}
+
+.comment-card  iframe{
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.comment-card  form{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment-container-body textarea {
+    width: 600px;
+}
+
+.like-dislike{
+    display: flex;
+    gap: 20px;
+}
+
+/* .like-dislike input[type="range"]::-webkit-slider-runnable-track{ */
+.like-dislike input[type="range"]{
+ -webkit-appearance: none; /* Clears default Chrome/Safari styles */
+  appearance: none;
+  width: 325px !important;              /* Adjust width as needed */
+  height: 5px;
+  border-radius: 5px;             /* Sets the bounding box height */
+  background: grey; 
+  display: block;
+  margin-top: 8px;
+}
+ 
+.like-dislike .col-3 .range-label  span{
+    margin-top: -10px;
+    margin-right: 55px;
+    /* background-color: red; */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Disables default browser style */
+  appearance: none;
+  width: 15px;              /* Set desired width */
+  height: 15px;             /* Set desired height */
+  border-radius: 50%;       /* Makes it a circle */
+  background: #1e2225;      /* Changes the thumb color (e.g., Blue) */
+  cursor: pointer;
+  margin-top: -1px;         /* Centers thumb vertically over an 8px track */
+}

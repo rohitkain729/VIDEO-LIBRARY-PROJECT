@@ -1,0 +1,22 @@
+.user-container{
+    width: 100%;
+    min-height: 100vh;
+    /* padding: 10px; */
+    background-color: white;
+}
+.video-lib{
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px grey;
+    overflow: auto;
+}
+
+.video-lib::-webkit-scrollbar {
+    display: none;
+}
+
+.card-text-user-desc{
+    height: 50px;
+    overflow: hidden;
+    /* background-color: red; */
+}
