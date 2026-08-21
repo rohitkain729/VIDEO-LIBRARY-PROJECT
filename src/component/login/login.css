@@ -1,0 +1,12 @@
+.loginform{
+   box-shadow: 2px 3px 30px 2px red;
+   margin-top: -170px;  
+}
+
+.form-check .form-check-input[type="radio"]:checked{
+   /* border-color: red; */
+   /* background-color: red; */
+   background-color: blue;
+    border-color: blue;
+}
+

@@ -1,0 +1,23 @@
+.admin-dashboard{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-bottom: 2px double rgb(177, 176, 176);
+}
+
+.video-player{
+    height: 300px;
+    width: 100%;
+}
+
+.card-body-container{
+    height: auto;
+    /* overflow: hidden; */
+}
+.card-body-title{
+    height: 70px;
+    /* overflow: auto; */
+    /* text-overflow: clip;
+    white-space: wrap; */
+
+}

@@ -1,0 +1,20 @@
+.footer{
+    /* background-color: orange; */
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* box-shadow: 3px 3px 10px black; */
+}
+
+.footer-subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+    /* padding-bottom: 3px; */
+}
+
+.inform{
+    /* margin-right: 80px; */
+}

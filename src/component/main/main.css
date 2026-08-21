@@ -1,0 +1,18 @@
+.main{
+    width: 100%;
+    background-color: black;
+    min-height: 80vh;
+    flex: 1;
+    /* margin: 500px; */
+    /* padding: 500px; */
+    /* background-color: red; */
+}
+
+.movie ~ img{
+    width: 48rem;
+    height: 60rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
